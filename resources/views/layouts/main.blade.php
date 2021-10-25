@@ -13,6 +13,7 @@
 
 
 <main>
+@include('partials.jumbotron')
 @yield("content")
 </main>
 

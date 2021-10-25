@@ -22,3 +22,17 @@
     color: $main-text-color;
   }
 }
+
+.button {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+button {
+  font-size: 15px;
+  background-color: $main-buy-section-color;
+  color: $main-text-color;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+}

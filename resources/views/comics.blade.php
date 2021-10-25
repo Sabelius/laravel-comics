@@ -13,5 +13,6 @@
     </div>
     @endforeach
 </div>
+<div class="button"><button>LOAD MORE</button></div>
 </div>
 @endsection
