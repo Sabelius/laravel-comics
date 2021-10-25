@@ -8,17 +8,17 @@
     flex-wrap: wrap;
     width: 70%;
     background-color: $text-color;
+  
 }
 
 .comics-stuff {
-    padding: 10px;
-    flex-basis: calc(100% / 6);
-    cursor: pointer;
-    img {
-      width: 50%;
-    }
-
-    h4 {
-      color: $main-text-color;
-    }
+  padding: 20px;
+  flex-basis: calc(100% / 6);
+  cursor: pointer;
+  .comic-image {
+    width: 100%;
+  }
+  h4 {
+    color: $main-text-color;
+  }
 }

@@ -1,5 +1,5 @@
 <header>
-<img src="{{ asset('images/dc-logo.png') }}" alt="">
+<img class="header-logo" src="{{ asset('images/dc-logo.png') }}">
 
 <ul>
     @foreach ($links as $link)
