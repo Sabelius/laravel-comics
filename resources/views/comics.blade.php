@@ -3,5 +3,15 @@
 @section('title', 'Comics')
 
 @section('content')
-<h1>ciao sono la sezione fumetti</h1>
+
+<div class="container-comics">
+<div class="comics-part">
+<div class="comics-stuff">
+    @foreach($comics_card as $card) 
+    <img src="{{ $card['thumb']}}">
+    <h4>{{$card['title']}}</h4>
+    </div>
+    @endforeach
+</div>
+</div>
 @endsection

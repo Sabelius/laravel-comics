@@ -31,7 +31,8 @@ Route::get('/characters', function () {
 })->name('characters');
 
 Route::get('/comics', function () {
-    return view('comics');
+    $comics_card= config('comics');
+    return view('comics', ['comics_card' => $comics_card]);
 })->name('comics');
 
 Route::get('/tv', function () {
