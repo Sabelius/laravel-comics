@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <title>DC comics | @yield('title')</title>
 </head>
 <body>
 
-@include('partials.header')
+@include('partials.header', ['links' =>config('header_links')])
 
 
 <main>
@@ -17,5 +18,8 @@
 
 @include('partials.footer')
     
+
+
+<script src="{{ asset('js/app.js') }}"><script>
 </body>
 </html>

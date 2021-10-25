@@ -1,7 +1,9 @@
-<h1>io sono l header</h1>
+<header>
+<img src="{{ asset('images/dc-logo.png') }}" alt="">
 
 <ul>
-    <li><a href="{{ route('characters') }}">Characters</a></li>
-    <li><a href="{{ route('movies') }}">Movies</a></li>
-    <li><a href="{{ route('comics') }}">Comics</a></li>
+    @foreach ($links as $link)
+    <li><a href="{{ route($link['route']) }}">{{ $link['text'] }}</a></li>
+    @endforeach
 </ul>
+</header>

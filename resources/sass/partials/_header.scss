@@ -1,0 +1,26 @@
+header {
+    display: flex;
+    align-items: center;
+}
+img {
+    padding: 50px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding-left: 400px;
+  padding-top: 40px;
+}
+
+li a {
+  padding: 20px;
+  text-decoration: none;
+  color: $text-color;
+
+  &:hover {
+    color: $main-buy-section-color;
+    border-bottom: 3px solid $main-buy-section-color;
+    cursor: pointer;
+  }
+}
