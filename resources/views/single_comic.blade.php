@@ -1,11 +1,10 @@
 @extends('layouts.main')
 
-@section('title', )
+@section('title', $single_comic['title'])
 @section('content') 
+@include('partials.jumbotron')
 
-<div class="jumbotron">
-    <div class="series-title-container"><img src="{{ $single_comic['thumb']}}"></div>
-</div>
+<div><img class="single-image-comic" src="{{ $single_comic['thumb']}}"></div>
 
 <div class="container">
     <div class="comic-info">
@@ -14,6 +13,7 @@
      <p>{{ $single_comic['description'] }}</p>
     </div>
     <div class="image-adv">
+        <h5>ADVERTISEMENT</h5>
         <img src="{{ asset('images/advertise.png') }}">
     </div>
 </div>

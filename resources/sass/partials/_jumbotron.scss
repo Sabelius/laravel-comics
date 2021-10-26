@@ -3,19 +3,28 @@
   height: 500px;
   display: flex;
 }
- .series-title-container{
+.series-title-container{
   background-color: $main-buy-section-color;
-  align-self: flex-end;
-  margin-top: 200px;
-  margin-left: 300px;
-  display: flex;
-  border: 2px solid $main-text-color;
+  width: 180px;
+  height: 30px;
+  position: absolute;
+  z-index: 1;
+  top: 680px;
+  left: 305px;
 }
-h3{
+.jumbo-title{
   color: $main-text-color;
-  align-self: center;
+  padding: 6px 5px 5px 7px;
 }
 .container-comics {
   background-color: $text-color;
+}
+
+.single-image-comic{
+  position: absolute;
+  z-index: 1;
+  top: 430px;
+  left: 100px;
+  border: 2px solid $main-text-color;
 }
   

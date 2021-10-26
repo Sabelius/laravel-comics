@@ -3,11 +3,9 @@
 @section('title', 'Comics')
 
 @section('content')
+@include('partials.jumbotron')
 
-    <div class="jumbotron">
-      <div class="series-title-container"><h3>CURRENT SERIES</h3></div>
-    </div>
-
+<div class="series-title-container"><h3 class="jumbo-title">CURRENT SERIES</h3></div>
     <div class="container-comics">
         <div class="comics-part">
             @foreach($comics_card as $card) 

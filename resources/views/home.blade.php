@@ -10,7 +10,7 @@
 <body>
 @include('partials.header', ['links'=>config('header_links')])
 
-
+@include('partials.jumbotron')
 @include('partials.footer',['links1'=>config('footer_links1'), 'links2' =>config('footer_links2'), 'links3' =>config('footer_links3'), 'links4' =>config('footer_links4')])
 
 
