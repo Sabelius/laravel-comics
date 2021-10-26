@@ -1,5 +1,6 @@
 .container{
     display: flex;
+    padding-top: 50px;
 }
 .comic-info{
     width: 60%;
@@ -16,5 +17,37 @@
 .image-adv{
     width: 40%;
     padding-left: 80px;
+}
+.wrapper{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: $bg-color;
+}
+.info{
+    padding-left: 100px ;
+    width: 75%;
+}
+.info2{
+    padding-left: 100px ;
+    width: 25%;
+}
+.talent{
+    display: flex;
+    padding-top: 10px;
+}
+.talent2{
+    padding-top: 50px;
+    display: flex;
+}
+
+.info-list{
+    display: flex;
+    padding-left: 50px;
+}
+
+.info-list2{
+    display: flex;
+    padding-left: 25px;
 }
 
