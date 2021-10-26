@@ -138,3 +138,25 @@ h3 {
 .second-section {
   background-image: url("../assets/img/footer-bg.jpg");
 }
+
+.container {
+  display: flex;
+}
+
+.comic-info {
+  width: 60%;
+  padding-left: 100px;
+}
+
+.comic-info h4 {
+  padding: 5px 0 5px 0;
+}
+
+.comic-info p {
+  text-align: justify;
+}
+
+.image-adv {
+  width: 40%;
+  padding-left: 80px;
+}
