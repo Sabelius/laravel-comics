@@ -21,7 +21,6 @@ li a {
 }
 li a:hover {
   color: #0084ff;
-  border-bottom: 3px solid #0084ff;
   cursor: pointer;
 }
 
@@ -29,6 +28,42 @@ li a:hover {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.footer-section {
+  background-image: url("../images/footer-bg.jpg");
+  display: flex;
+}
+
+.footer-section ul {
+  list-style: none;
+  flex-direction: column;
+  padding-left: 50px;
+  padding-top: 100px;
+}
+
+.footer-section h3 {
+  color: white;
+  align-self: flex-start;
+  margin-left: 20px;
+}
+
+.footer-section li {
+  padding-top: 10px;
+}
+
+.footer-section a {
+  text-decoration: none;
+  color: #adadad;
+  cursor: pointer;
+}
+.footer-section a:hover {
+  border: none;
+}
+
+.footer-section img {
+  width: 450px;
+  margin-left: 400px;
 }
 
 .container-comics {
