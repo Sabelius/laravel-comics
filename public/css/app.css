@@ -240,19 +240,23 @@ button {
 
 .info-list {
   display: flex;
-  padding-left: 50px;
+  padding-left: 55px;
 }
 
 .info-list2 {
   display: flex;
+  padding-left: 30px;
 }
-.info-list2 .one {
+
+.one {
   padding-left: 87px;
 }
-.info-list2 .two {
+
+.two {
   padding-left: 67px;
 }
-.info-list2 .three {
+
+.three {
   padding-left: 50px;
 }
 
