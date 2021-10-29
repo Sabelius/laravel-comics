@@ -11,7 +11,6 @@
 .footer-section h3 {
     color: $main-text-color;
     align-self:flex-start;
-    margin-left: 20px;
 }
 .footer-section li {
     padding-top: 10px;
@@ -23,9 +22,45 @@
   
     &:hover {
       border: none;
+      color: $main-buy-section-color;
     }
 }
 .footer-section img {
     width: 450px;
     margin-left: 400px;
 }
+.second-footer-section {
+    background-color: $footer-color;
+    min-height: 241px;
+}
+.second-footer-section button{
+    background-color: $text-color;
+    color: $main-text-color;
+    padding: 20px;
+    margin-top: 80px;
+    margin-left: 100px;
+    border: 1px solid  $main-text-color;
+
+    &:hover {
+        border-color: $main-buy-section-color;
+        cursor: pointer;
+    }
+}
+.second-footer-section ul {
+    display: flex;
+    padding-left: 1300px;
+    padding-top: 0;
+    margin-bottom: 100px;
+}
+.second-footer-section h4 {
+    color: $main-buy-section-color;
+}
+.second-footer-section li {
+    padding-left: 20px;
+    list-style: none;
+}
+.second-footer-section img {
+    width: 30px;
+    cursor: pointer;
+}
+  

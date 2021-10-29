@@ -16,7 +16,7 @@
 @yield("content")
 </main>
 
-@include('partials.footer', ['links1'=>config('footer_links1'), 'links2' =>config('footer_links2'),  'links3' =>config('footer_links3'), 'links4' =>config('footer_links4')])
+@include('partials.footer', ['links1'=>config('footer_links1'), 'links2' =>config('footer_links2'),  'links3' =>config('footer_links3'), 'links4' =>config('footer_links4'), 'socials' =>config('footer_socials')])
     
 
 

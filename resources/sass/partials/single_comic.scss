@@ -2,10 +2,12 @@
     display: flex;
     padding-top: 50px;
 }
+.info-name{
+    color: $main-buy-section-color;
+}
 .comic-info{
     width: 60%;
-    padding-left: 100px ;
-    
+    padding-left: 100px;   
 }
 .comic-info h4{
     padding: 5px 0 5px 0;
@@ -13,7 +15,6 @@
 .comic-info p{
     text-align: justify;
 }
-
 .image-adv{
     width: 40%;
     padding-left: 80px;
@@ -40,14 +41,47 @@
     padding-top: 50px;
     display: flex;
 }
-
 .info-list{
     display: flex;
     padding-left: 50px;
 }
-
 .info-list2{
     display: flex;
     padding-left: 25px;
 }
+.info-list a,
+.info-list2 a{
+    text-decoration: none;
+    margin-right: 2px;
+
+    a:hover{
+        text-decoration: none;
+    }
+}
+.first-section ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+.first-section {
+  background-color: $bg-color;
+}
+.first-section img {
+  width: 60px;
+}
+.first-section a {
+  color: $main-text-color;
+  text-decoration: none;
+  display: flex;
+
+  &:hover{
+    color: $main-buy-section-color;
+  }
+}
+.first-section h4 {
+  padding: 30px 0 0 10px;
+  cursor: pointer;
+}
+
 

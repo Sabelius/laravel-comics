@@ -29,5 +29,15 @@
         </div>
 </div>
 
+<div class="second-footer-section">
+    <button>SIGN-UP NOW</button>
+    <ul>
+        <h4>FOLLOW US</h4>
+        @foreach ($socials as $social)
+            <li><a href="{{ url($social['url']) }}"><img src="{{ $social['img'] }}" ></a></li>
+        @endforeach
+    </ul>
+</div>
+
 
 </footer>
