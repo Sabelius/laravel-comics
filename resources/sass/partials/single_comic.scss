@@ -47,7 +47,17 @@
 }
 .info-list2{
     display: flex;
-    padding-left: 25px;
+
+    .one{
+        padding-left: 87px;
+    }
+    .two{
+        padding-left: 67px;
+    }
+    .three{
+        padding-left: 50px;
+    }
+
 }
 .info-list a,
 .info-list2 a{

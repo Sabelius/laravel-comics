@@ -56,7 +56,7 @@
         </div>
         <div class="info-list2">
             <a href="#">
-                <p>{{ $single_comic['series'] }}</p>
+                <p class="one">{{ $single_comic['series'] }}</p>
             </a>
         </div>
     </div>
@@ -65,7 +65,7 @@
             <h5>U.S. Price:</h5>
         </div>
         <div class="info-list2">
-            <p>{{ $single_comic['price'] }}</p>
+            <p class="two">{{ $single_comic['price'] }}</p>
         </div>
     </div>
     <div class="talent2">
@@ -73,7 +73,7 @@
             <h5>On Sale Date:</h5>
         </div>
         <div class="info-list2">
-            <p>{{ $single_comic['sale_date'] }}</p>
+            <p class="three">{{ $single_comic['sale_date'] }}</p>
         </div>
     </div>
 </div>

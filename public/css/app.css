@@ -245,7 +245,15 @@ button {
 
 .info-list2 {
   display: flex;
-  padding-left: 25px;
+}
+.info-list2 .one {
+  padding-left: 87px;
+}
+.info-list2 .two {
+  padding-left: 67px;
+}
+.info-list2 .three {
+  padding-left: 50px;
 }
 
 .info-list a,
